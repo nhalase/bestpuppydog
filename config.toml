@@ -1,0 +1,29 @@
+baseURL = "http://bestpuppy.dog/"
+languageCode = "en-us"
+title = "Best Puppy, Olive"
+theme = "hallo"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[languages]
+  [languages.de]
+    title = "Bester Hund, Olive"
+    contentDir = "content/deutsch"
+    languageName = "Deutsch"
+  [languages.en]
+    title = "Best Puppy, Olive"
+    contentDir = "content/english"
+    languageName = "English"
+
+[Author]
+    name = "Olive"
+
+[params]
+    greeting = "Henlo!"
+    [params.colors]
+        background = "#25592b"
+        foreground = "#edf7ff"
+        hover = "#ffba82"
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://www.instagram.com/_lil_olive_oil_/"
